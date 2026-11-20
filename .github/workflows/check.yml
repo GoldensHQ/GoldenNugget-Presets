@@ -38,7 +38,7 @@ jobs:
       - name: Check out GoldenNugget
         uses: actions/checkout@v5
         with:
-          repository: GoldenNugget-Team/GoldenNugget
+          repository: GoldensHQ/GoldenNugget
           ref: main
           path: gn
           persist-credentials: false

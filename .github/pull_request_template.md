@@ -4,7 +4,7 @@
 <!-- One or two sentences: what changes on the iPhone. -->
 
 **Made with:**
-- [ ] [Batter Builder](https://github.com/GoldenNugget-Team/GoldenNugget-TemplateBuilder/releases/latest) (recommended for templates: it runs the same checks while you edit)
+- [ ] [Batter Builder](https://github.com/GoldensHQ/GoldenNugget-TemplateBuilder/releases/latest) (recommended for templates: it runs the same checks while you edit)
 - [ ] GoldenNugget's Submit to Catalog (presets)
 - [ ] By hand
 

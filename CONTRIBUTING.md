@@ -6,7 +6,7 @@ rules; this is the short version.
 
 ## Templates (`templates/*.batter`)
 
-Use **[Batter Builder](https://github.com/GoldenNugget-Team/GoldenNugget-TemplateBuilder/releases/latest)**,
+Use **[Batter Builder](https://github.com/GoldensHQ/GoldenNugget-TemplateBuilder/releases/latest)**,
 the visual editor for GoldenNugget templates:
 
 1. Build the template: switches, sliders, text boxes and choice lists, no JSON
@@ -18,7 +18,7 @@ If the pull request's check reports a problem, open the template in Batter
 Builder, fix what its Check page lists and upload the file again.
 
 Prefer to write `config.json` yourself? See
-[the template documentation](https://github.com/GoldenNugget-Team/GoldenNugget/blob/main/documentation.md)
+[the template documentation](https://github.com/GoldensHQ/GoldenNugget/blob/main/documentation.md)
 and check the file with `python nugget_cli.py wallpaper validate my-template.batter`.
 
 ## Presets (`presets/*.json`)

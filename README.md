@@ -1,6 +1,6 @@
 # GoldenNugget Presets
 
-The community preset and template catalog for [GoldenNugget](https://github.com/GoldenNugget-Team/GoldenNugget).
+The community preset and template catalog for [GoldenNugget](https://github.com/GoldensHQ/GoldenNugget).
 Open **Community Catalog** on the app's home screen to see these presets, check how
 risky each one is, preview it on a virtual iPhone and import it. The
 **Templates** tab lists `.batter` templates and the files each of their tweaks
@@ -50,12 +50,12 @@ letters, digits and dashes, for example `presets/solid-glass.json`.
 ## Submitting a template
 
 Templates are `.batter` files: a ZIP with a `config.json`, described in
-[the template documentation](https://github.com/GoldenNugget-Team/GoldenNugget/blob/main/documentation.md).
+[the template documentation](https://github.com/GoldensHQ/GoldenNugget/blob/main/documentation.md).
 Templates with community tweaks use `"format_version": "3"`.
 
 ### With Batter Builder (recommended)
 
-[Batter Builder](https://github.com/GoldenNugget-Team/GoldenNugget-TemplateBuilder/releases/latest)
+[Batter Builder](https://github.com/GoldensHQ/GoldenNugget-TemplateBuilder/releases/latest)
 makes templates with community tweaks in a window, no JSON by hand. It runs
 the same checks as this catalog while you edit, shows the template on a virtual
 iPhone, and **Submit to Catalog** saves `<id>.batter` and opens the upload page
@@ -68,7 +68,7 @@ you already have.
    (or open it in Batter Builder, whose Check page lists every problem).
 2. Name it after its id: lowercase letters, digits and dashes, for example
    `dock-tweaks.batter`.
-3. Open [Upload files to templates/](https://github.com/GoldenNugget-Team/GoldenNugget-Presets/upload/main/templates),
+3. Open [Upload files to templates/](https://github.com/GoldensHQ/GoldenNugget-Presets/upload/main/templates),
    drop the file in, then click **Propose changes** and **Create pull request**.
 
 The catalog takes the name, author, description and iOS range from
