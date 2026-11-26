@@ -35,6 +35,8 @@ jobs:
           repository: GoldensHQ/GoldenNugget
           ref: main
           path: gn
+          # The template validator imports widgets from the awesomeui submodule.
+          submodules: true
 
       - name: Set up Python
         uses: actions/setup-python@v6

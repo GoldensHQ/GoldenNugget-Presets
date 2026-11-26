@@ -38,10 +38,61 @@ PRESET_PATH = re.compile(r"^presets/[^/]+\.gnmpreset$")
 TEMPLATE_PATH = re.compile(r"^templates/[^/]+\.batter$")
 BATTER_BUILDER_URL = "https://github.com/GoldensHQ/GoldenNugget-TemplateBuilder/releases/latest"
 
+MERGED_V3_KEY = "Preset Version 3 (YAML)"
+MERGED_V2_KEY = "Preset Version 2 (JSON)"
+
+
+def _literal_block(text: str, key: str) -> str:
+    """Return the dedented contents of a top-level YAML literal block."""
+    lines = text.splitlines()
+    for index, line in enumerate(lines):
+        if not line.startswith(key + ":"):
+            continue
+        block = []
+        for following in lines[index + 1:]:
+            if following and not following[0].isspace():
+                break
+            block.append(following)
+        indent = min((len(item) - len(item.lstrip(" ")) for item in block if item.strip()),
+                     default=0)
+        return "\n".join(item[indent:] if item.strip() else "" for item in block).strip("\n")
+    raise ValueError(f"Missing {key} block.")
+
+
+def load_gnmpreset(path: Path) -> dict:
+    """Read the version 2 preset carried by a merged .gnmpreset export.
+
+    GoldenNugget writes both a version 3 YAML block and the version 2 JSON
+    dictionary the app still uses. It has no version 3 reader, so the catalog
+    reads the JSON block directly: no YAML dependency and no GUI import.
+    """
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    if not lines or lines[0] != "HEADER:":
+        raise ValueError("Not a merged .gnmpreset file.")
+    header = {}
+    for line in lines[1:]:
+        if line and not line[0].isspace():
+            break
+        key, separator, value = line.strip().partition(":")
+        if separator:
+            header[key] = value.strip()
+    includes = [part.strip() for part in header.get("Includes", "").split(",")]
+    if header.get("PresetVersion") != "3" or "2" not in includes:
+        raise ValueError("Not a merged version 3 and version 2 preset file.")
+    if not _literal_block(text, MERGED_V3_KEY):
+        raise ValueError("The version 3 preset block is empty.")
+    try:
+        data = json.loads(_literal_block(text, MERGED_V2_KEY))
+    except ValueError as error:
+        raise ValueError("The version 2 preset block is not valid JSON.") from error
+    if not isinstance(data, dict):
+        raise ValueError("The version 2 preset block is not a preset dictionary.")
+    return data
+
 
 def _entry_from_gnmpreset(path: Path, preset_catalog, share_code, valid_structure):
-    from src.controllers.preset_format import load
-    data = load(str(path))
+    data = load_gnmpreset(path)
     if not valid_structure(data):
         raise preset_catalog.CatalogError("Invalid preset structure.")
     meta = data.get("metadata") if isinstance(data.get("metadata"), dict) else {}

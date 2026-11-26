@@ -41,6 +41,8 @@ jobs:
           repository: GoldensHQ/GoldenNugget
           ref: main
           path: gn
+          # The template validator imports widgets from the awesomeui submodule.
+          submodules: true
           persist-credentials: false
 
       - name: Set up Python
