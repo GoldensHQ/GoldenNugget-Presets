@@ -21,7 +21,7 @@ Prefer to write `config.json` yourself? See
 [the template documentation](https://github.com/GoldensHQ/GoldenNugget/blob/main/documentation.md)
 and check the file with `python nugget_cli.py wallpaper validate my-template.batter`.
 
-## Presets (`presets/*.json`)
+## Presets (`presets/*.gnmpreset`)
 
 Submit them from GoldenNugget: select the preset on the Presets page and click
 **Submit to Catalog**. The [README](README.md#submitting-a-preset) explains the

@@ -67,4 +67,8 @@ jobs:
             OWNER|MEMBER|COLLABORATOR) ;;
             *) args+=(--changed-since "$BASE_SHA") ;;
           esac
-          python gn/tools/preset_catalog.py check catalog --summary "$GITHUB_STEP_SUMMARY" "${args[@]}"
+          CHECK_TOOL="catalog/tools/preset_catalog.py"
+          if [ ! -f "$CHECK_TOOL" ]; then
+            CHECK_TOOL="gn/tools/preset_catalog.py"
+          fi
+          python "$CHECK_TOOL" check catalog --summary "$GITHUB_STEP_SUMMARY" "${args[@]}"

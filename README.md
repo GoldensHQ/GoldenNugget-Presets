@@ -25,27 +25,19 @@ you automatically.
 ### By hand
 
 Add one file to `presets/`. The file name is the preset's id: lowercase
-letters, digits and dashes, for example `presets/solid-glass.json`.
+letters, digits and dashes, for example `presets/solid-glass.gnmpreset`.
 
-```json
-{
-  "format": 1,
-  "name": "Solid Glass",
-  "author": "Your name",
-  "description": "What it changes, in a sentence or two.",
-  "ios_min": "26.0",
-  "ios_max": "",
-  "tags": ["liquid glass", "minimal"],
-  "code": "GN1.…"
-}
-```
+A catalog preset is a GoldenNugget merged preset file (`.gnmpreset`, format v3).
+Create it in GoldenNugget by exporting a preset as `.gnmpreset`, then set the
+catalog metadata in the YAML `metadata` block: `name`, `author`,
+`description`, optional `ios_min`/`ios_max`, optional `tags`, and optional
+`untested: true`.
 
-- `code` is the share code from **Share as QR → Copy Code** in the app.
 - `ios_min` and `ios_max` are optional. `"18"` means every 18.x release.
 - Up to 8 tags of at most 24 characters.
 - Name up to 60 characters, author up to 40, description up to 500.
 - Templates, icon themes and wallpapers are files on your computer, so they
-  are never part of a share code.
+  should not be included in catalog presets.
 
 ## Submitting a template
 
@@ -97,7 +89,7 @@ new preset the next time someone opens the catalog.
 ## For maintainers
 
 - The check and the published `index.json` are built by
-  `tools/preset_catalog.py` in the GoldenNugget repository, with the same
+  `tools/preset_catalog.py` in this catalog repository (or the GoldenNugget copy in CI fallback), with the same
   rules the app applies when it reads the catalog.
 - The check runs with `pull_request_target`, so a pull request cannot change
   its own check. It only reads the pull request's files as data.

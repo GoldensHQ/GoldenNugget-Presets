@@ -1,0 +1,2750 @@
+HEADER:
+  PresetVersion: 3
+  GNVersion: '10.0'
+  Device: Unknown
+  OSVersion: iPhoneOS Unknown
+  Includes: 3,2
+Preset Version 3 (YAML): |
+  HEADER:
+    PresetVersion: 3
+    GNVersion: '10.0'
+    Device: Unknown
+    OSVersion: iPhoneOS Unknown
+    Includes: 3
+  metadata:
+    name: Solid Glass
+    author: GoldenNugget Team
+    description: Turns off the Liquid Glass look for the Dock and the Lock Screen clock.
+    ios_min: '26.0'
+    tags:
+    - liquid glass
+    - minimal
+  tweaks:
+    StatusBar:
+      enabled: false
+    PosterKitOverrides:
+      enabled: false
+    SBHomeScreenWallpapers:
+      enabled: false
+    SBLockScreenWallpapers:
+      enabled: false
+    GyroPoster:
+      enabled: false
+    GyroPosterOcclusion:
+      enabled: false
+    PhotosPosterBackdrop:
+      enabled: false
+    PosterAdaptiveLayout:
+      enabled: false
+    PosterPortraitHeadroom:
+      enabled: false
+    PosterEditorKashida:
+      enabled: false
+    Loquat:
+      enabled: false
+    MoMA:
+      enabled: false
+    HomeScreenWallpaperEditor:
+      enabled: false
+    SkipPrecacheWallpaperStyles:
+      enabled: false
+    LockScreenFootnote:
+      enabled: false
+    WatchOSCompatibility:
+      enabled: false
+    AirDropDisableTimeLimit:
+      enabled: false
+    SBDontLockAfterCrash:
+      enabled: false
+    SBDontDimOrLockOnAC:
+      enabled: false
+    SBHideLowPowerAlerts:
+      enabled: false
+    SBHideACPower:
+      enabled: false
+    SBNeverBreadcrumb:
+      enabled: false
+    SBShowSupervisionTextOnLockScreen:
+      enabled: false
+    AirplaySupport:
+      enabled: false
+    SBMinimumLockscreenIdleTime:
+      enabled: false
+    SBAlwaysShowSystemApertureInSnapshots:
+      enabled: false
+    HideDICompletely:
+      enabled: false
+    SBShowAuthenticationEngineeringUI:
+      enabled: false
+    UseFloatingTabBar:
+      enabled: false
+    KeyboardShouldSplitInDefaultContext:
+      enabled: false
+    KeyboardShouldSplitInSplitPreferringContext:
+      enabled: false
+    UIKeyboardPersistentSplitProgress:
+      enabled: false
+    UIKeyboardPersistentSplitLock:
+      enabled: false
+    SBDisableIconParallax:
+      enabled: false
+    SBHideSearchAffordance:
+      enabled: false
+    SBBuildNumber:
+      enabled: false
+    RTL:
+      enabled: false
+    LTR:
+      enabled: false
+    SBIconVisibility:
+      enabled: false
+    MetalForceHudEnabled:
+      enabled: false
+    iMessageDiagnosticsEnabled:
+      enabled: false
+    IDSDiagnosticsEnabled:
+      enabled: false
+    VCDiagnosticsEnabled:
+      enabled: false
+    AccessoryDeveloperEnabled:
+      enabled: false
+    DisableSecondsHand:
+      enabled: false
+    DisableSearchingWebsites:
+      enabled: false
+    ShowButtonHints:
+      enabled: false
+    AppStoreDebug:
+      enabled: false
+    NotesDebugMode:
+      enabled: false
+    BKDigitizerVisualizeTouches:
+      enabled: false
+    BKHideAppleLogoOnLaunch:
+      enabled: false
+    EnableWakeGestureHaptic:
+      enabled: false
+    PlaySoundOnPaste:
+      enabled: false
+    AnnounceAllPastes:
+      enabled: false
+    ForceSolariumFallback:
+      enabled: false
+    DisableSolarium:
+      enabled: false
+    IgnoreSolariumLinkedOnCheck:
+      enabled: false
+    NoLiquidClock:
+      enabled: true
+      value: true
+    NoLiquidDock:
+      enabled: true
+      value: true
+    DisableSpecularMotion:
+      enabled: false
+    DisableOuterRefraction:
+      enabled: false
+    DisableSolariumHDR:
+      enabled: false
+    DisallowGlassButtons:
+      enabled: false
+    DisallowGlassLockScreen:
+      enabled: false
+    ForceEnhancedSpeculars:
+      enabled: false
+    ForceSolariumIntelligence:
+      enabled: false
+    UISolariumFallback:
+      enabled: false
+    IgnoreSolariumHardwareCheck:
+      enabled: false
+    IgnoreSolariumOptOut:
+      enabled: false
+    DisableSpecularEverywhere:
+      enabled: false
+    DisableWidgetSpecular:
+      enabled: false
+    DisableDockSpecular:
+      enabled: false
+    DisableFolderSpecular:
+      enabled: false
+    ExcludeClearGlassShadows:
+      enabled: false
+    ExcludeDockShadow:
+      enabled: false
+    ExcludeSearchShadow:
+      enabled: false
+    UseFlatIconsEverywhere:
+      enabled: false
+    GlassContainerLogging:
+      enabled: false
+    FlexiGlassMacOS:
+      enabled: false
+    FlexiGlassMacOSPointer:
+      enabled: false
+    InvisibilitySuppressesGlass:
+      enabled: false
+    EnableGlassEffectBridgeLayers:
+      enabled: false
+    EnableGaussianGlassEffectBridgeLayers:
+      enabled: false
+    UnifiedSystemBackgroundColorsEnabled:
+      enabled: false
+    UnaryGlassContainerEnabled:
+      enabled: false
+    EnableSolariumCompactChrome:
+      enabled: false
+    DisableSolariumCompactChrome:
+      enabled: false
+    SolariumIncreasedDiffusion:
+      enabled: false
+    SolariumUseDisplayAngle:
+      enabled: false
+    SolariumTintMask:
+      enabled: false
+    SolariumBackgroundFilter:
+      enabled: false
+    SolariumHighlightWhite:
+      enabled: false
+    SolariumLiveTuning:
+      enabled: false
+    SolariumHierarchicalStyle:
+      enabled: false
+    GlassHierarchicalStyle:
+      enabled: false
+    GlassVisualDebug:
+      enabled: false
+    GlassVisualWarnings:
+      enabled: false
+    BlurFillExperiment:
+      enabled: false
+    AdaptiveGlassHysteresisDarkRange:
+      enabled: false
+    AdaptiveGlassHysteresisLightRange:
+      enabled: false
+    CalistogaLargeRefraction:
+      enabled: false
+    CalistogaRegularClearer:
+      enabled: false
+    CalistogaBackdropMarginIncludesBlur:
+      enabled: false
+    CalistogaAllowLumaTracking:
+      enabled: false
+    CalistogaSidebarAccentOpacity:
+      enabled: false
+    CalistogaPerceptualBackdropScale:
+      enabled: false
+    CalistogaKeyboardGlass:
+      enabled: false
+    CalistogaCameraGlass:
+      enabled: false
+    FloatingContentViewSpecularHighlightOpacity:
+      enabled: false
+    FloatingContentViewUnfocusedBorderOpacity:
+      enabled: false
+    FloatingContentViewUnfocusedBorderWidth:
+      enabled: false
+    FloatingContentViewEnableBackgroundFills:
+      enabled: false
+    FloatingContentViewDebugBackgroundFills:
+      enabled: false
+    FloatingContentViewPunchoutShadow:
+      enabled: false
+    FloatingContentViewModifyTransformMode:
+      enabled: false
+    FloatingContentViewOverrideRotationX:
+      enabled: false
+    FloatingContentViewOverrideRotationY:
+      enabled: false
+    FloatingContentViewOverrideTranslationX:
+      enabled: false
+    FloatingContentViewOverrideTranslationY:
+      enabled: false
+    FloatingContentViewModifyRotationStrength:
+      enabled: false
+    FloatingContentViewModifyTranslationStrength:
+      enabled: false
+    FocusSpecularHighlightMaxSize:
+      enabled: false
+    FocusSpecularHighlightScaleFactor:
+      enabled: false
+    FocusSpecularHighlightSensitivity:
+      enabled: false
+    FocusSpecularHighlightNormalizedPositionX:
+      enabled: false
+    FocusSpecularHighlightNormalizedPositionY:
+      enabled: false
+    NewStackedImageRenderingEnabled:
+      enabled: false
+    NewStackedImageFiltersEnabled:
+      enabled: false
+    NewStackedImage3DTransformsEnabled:
+      enabled: false
+    NewStackedImage3DTransformedGlassLayer:
+      enabled: false
+    NewStackedImageSpecularEnabled:
+      enabled: false
+    NewStackedImageSpecularOpacity:
+      enabled: false
+    NewStackedImageRadiosityEnabled:
+      enabled: false
+    NewStackedImageForceAdjustMotionForSize:
+      enabled: false
+    NewStackedImageForceDefaultScaleSizeIncrease:
+      enabled: false
+    NewStackedImageInnerParallaxScale:
+      enabled: false
+    NewStackedImageAsymmetricScale:
+      enabled: false
+    NewStackedImageProgressiveScale:
+      enabled: false
+    NewStackedImageAdditionalTranslation:
+      enabled: false
+    NewStackedImageFocusedAdditionalScaleAmount:
+      enabled: false
+    StackedImageContainerDefaultMaxDepth:
+      enabled: false
+    StackedImageContainerDefaultRotationX:
+      enabled: false
+    StackedImageContainerDefaultRotationY:
+      enabled: false
+    StackedImageContainerDefaultTranslationX:
+      enabled: false
+    StackedImageContainerDefaultTranslationY:
+      enabled: false
+    StackedImageContainerModifyMaxDepthStrength:
+      enabled: false
+    StackedImageContainerModifyRotationStrength:
+      enabled: false
+    StackedImageContainerModifyTranslationStrength:
+      enabled: false
+    StackedImageContainerModifyInnerParallaxScaleStrength:
+      enabled: false
+    StackedImageContainerModifyTransformMinWidth:
+      enabled: false
+    StackedImageContainerModifyTransformMaxWidth:
+      enabled: false
+    StackedImageContainerModifyTransformMinHeight:
+      enabled: false
+    StackedImageContainerModifyTransformMaxHeight:
+      enabled: false
+    Daemons:
+      enabled: false
+    ClearScreenTimeAgentPlist:
+      enabled: false
+    DisableSystemAperture:
+      enabled: false
+    SolariumEnableHomeScreenExteriorEffects:
+      enabled: false
+    SolariumNoBlurReducedFrost:
+      enabled: false
+    ReduceHighlightingEffectsEnabled:
+      enabled: false
+    SolariumKeyboardUpdateRate:
+      enabled: false
+    SBDisableLiveIcons:
+      enabled: false
+    SBDisableIconFlyInAnimation:
+      enabled: false
+    SBDisableParallaxOnPageControl:
+      enabled: false
+    SBHideReportWidgetStackRotationQuickAction:
+      enabled: false
+    SBWidgetSnapshottingEnabled:
+      enabled: false
+    SBCoverSheetPrewarmCameraOnSwipe:
+      enabled: false
+    SBCoverSheetPrelaunchCameraOnSwipe:
+      enabled: false
+    SBCoverSheetPrewarmCameraOnButtonTouch:
+      enabled: false
+    SBCoverSheetPrelaunchCameraOnButtonTouch:
+      enabled: false
+    SBSuppressNoSimAlert:
+      enabled: false
+    SBIgnoreMinimumRequiredSDKVersionForWidgets:
+      enabled: false
+    SBShowInternalApps:
+      enabled: false
+    SBPIPInitiallyUsesMinimumPreferredContentSize:
+      enabled: false
+    SBDisableAsyncRenderingSurfaceRetention:
+      enabled: false
+    SBEnableDynamicJetsamLimits:
+      enabled: false
+    SBAlwaysRenderSystemApertureFillOnGPU:
+      enabled: false
+    SBNeverRenderSystemApertureFillOnGPU:
+      enabled: false
+    SBKillableInAppSwitcher:
+      enabled: false
+    SBChamoisHideStrips:
+      enabled: false
+    SBChamoisHideDock:
+      enabled: false
+    SBBackgroundNethermostWindows:
+      enabled: false
+    SBFlexibleWindowingManualStageCreationShouldRestorePreviousOpenWindows:
+      enabled: false
+    SBCoverSheetUseDefaultsValuesForCameraPrewarm:
+      enabled: false
+    SBMaxIconListCount:
+      enabled: false
+    SBCoverSheetCameraPrewarmThreshold:
+      enabled: false
+    SBCoverSheetCameraPrelaunchThreshold:
+      enabled: false
+    SBCoverSheetPlayerTimeout:
+      enabled: false
+    SBSuppressAppShortcutTruncation:
+      enabled: false
+    SBShouldInsertDownloadFileStackIconToFloatingDock:
+      enabled: false
+    SBCoverSheetProportionalAdaptiveTime:
+      enabled: false
+    SBNotificationCenterUseDuet:
+      enabled: false
+    SBBatteryWidgetAlwaysAvailable:
+      enabled: false
+    SBAlwaysAllowLongLookGesture:
+      enabled: false
+    SBWantsManyForegroundWindows:
+      enabled: false
+    SBCameraShutterButtonShouldUsePocketDetection:
+      enabled: false
+    SBPlaySoundOnDeviceWake:
+      enabled: false
+    SBDismissControlCenterElsewhereOnPresentation:
+      enabled: false
+    SBCameraShutterButtonLongPressTimeout:
+      enabled: false
+    SBCameraShutterButtonLongPressCancellationTimeout:
+      enabled: false
+    SBForceMedusaAdoption:
+      enabled: false
+    SBIgnoreSBUsesNetwork:
+      enabled: false
+    SBEnableModalWidgetDiscoverabilityForTesting:
+      enabled: false
+    SBWidgetSnapshotDebugLabels:
+      enabled: false
+    SBWidgetLogging:
+      enabled: false
+    SBHijackSpotlightButtonActionForPrototyping:
+      enabled: false
+    SBPIPVisualizeKeyboardFrame:
+      enabled: false
+    SBPIPVisualizePositionRegions:
+      enabled: false
+    SBEnableVideoRotation:
+      enabled: false
+    SBPostModernRotationForciblyEnabled:
+      enabled: false
+    SBCoverSheetDisableDeviceMotionEffectPerformanceOptimizations:
+      enabled: false
+    SBAlwaysShowSystemApertureOnClonedDisplays:
+      enabled: false
+    SBEnableSystemApertureStateCollection:
+      enabled: false
+    SBShowRSSI:
+      enabled: false
+    SBShowThermalWarning:
+      enabled: false
+    SBShowStatusBarOverridesForRecording:
+      enabled: false
+    SBTestBannerPlaysTextTone:
+      enabled: false
+    SBAlwaysAllowDefaultAction:
+      enabled: false
+    SBTrackPowerEvents:
+      enabled: false
+    SBSimulateCaptureButtonUsingActionButton:
+      enabled: false
+    SBDisablePreLaunchCaptureButtonSuppression:
+      enabled: false
+    SBCaptureButtonDisableWakeWhenDim:
+      enabled: false
+    SBCaptureButtonDisableStationaryDetection:
+      enabled: false
+    SBCaptureButtonDisableDirectLaunchAfterUnsuppress:
+      enabled: false
+    SBCaptureButtonEnableCameraPose:
+      enabled: false
+    SBBundleIdentifierToForceHomeAffordanceInset:
+      enabled: false
+    SBLeftOfHomeAppBundleIdentifier:
+      enabled: false
+    SBSwitcherBottomEdgeGestureSwipeCount:
+      enabled: false
+    SBNotificationVisibleIdleTimer:
+      enabled: false
+    SBMainDisplayDarkeningPercentage:
+      enabled: false
+    SBShowLegalTextOnLockScreen:
+      enabled: false
+    SBHideNotifications:
+      enabled: false
+    SBShowQuickNoteFingerGestureRecognizer:
+      enabled: false
+    SBCoverSheetForceWakeToMaps:
+      enabled: false
+    SBCoverSheetWeDontNeedNoEducation:
+      enabled: false
+    SBFolderViewSuppressSetCurrentPage:
+      enabled: false
+    SBHomeSidebarIsPinned:
+      enabled: false
+    SBCoverSheetUseDefaultsForDateTimeOverrides:
+      enabled: false
+    SBCoverSheetOverridesDateTimeIntervalSince1970:
+      enabled: false
+    SBCoverSheetOverridesDateTimeToDefaultToday:
+      enabled: false
+    SBCoverSheetOverridesDateTimeToDefaultPast:
+      enabled: false
+    SBCoverSheetQuickActionOverrideBundleLeading:
+      enabled: false
+    SBCoverSheetQuickActionOverrideBundleTrailing:
+      enabled: false
+    SBCoverSheetQuickActionOverrideContainerLeading:
+      enabled: false
+    SBCoverSheetQuickActionOverrideContainerTrailing:
+      enabled: false
+    SBCoverSheetQuickActionOverrideKindLeading:
+      enabled: false
+    SBCoverSheetQuickActionOverrideKindTrailing:
+      enabled: false
+    SBSupressAlertsForKeynote:
+      enabled: false
+    SBIgnoreCaptureApplicationLaunchMonitor:
+      enabled: false
+    SBShouldShowSplitPeekEducation:
+      enabled: false
+    SBShouldShowSlideOverPeekEducation:
+      enabled: false
+    SBHomeShouldShowLibraryEducationView:
+      enabled: false
+    SBShouldShowWidgetIntroductionPage:
+      enabled: false
+    SBExternalDisplayContentsScaleAndDontFileRadars:
+      enabled: false
+    showInternalWidgets:
+      enabled: false
+    AMAmbientIgnoreBatteryCharging:
+      enabled: false
+    AMAlwaysUpdateIconModelOnAmbientWidgetLayoutChange:
+      enabled: false
+    SBTrackpadSwitcherGesturesEnabled:
+      enabled: false
+    SBDisableHomeButtonDoublePress:
+      enabled: false
+    SBAlwaysOnTapToInteract:
+      enabled: false
+    SBAlwaysOnSwipeToUnlock:
+      enabled: false
+    SBAndromedaDebugColors:
+      enabled: false
+    SBUseAlwaysOnBrightnessCurve:
+      enabled: false
+    SBEnforceOverallAPLLimit:
+      enabled: false
+    SBShouldAddDefaultWidgetsToHomeScreen:
+      enabled: false
+    SBShouldUpgradeEnableWidgetSuggestions:
+      enabled: false
+    SBShouldResetDefaultTodayList:
+      enabled: false
+    SBShouldResetStackForDefaultTodayList:
+      enabled: false
+    SBCaptureButtonAllowLaunchIfUnobstructionOccursWhileButtonDown:
+      enabled: false
+    SBCaptureButtonAllowLaunchIfUnobstructionOccursPromptlyAfterButtonUp:
+      enabled: false
+    SBWalletPreArmForceLockButton:
+      enabled: false
+    SBEnableExtraBacklightLogging:
+      enabled: false
+    SBShouldLaunchWithMallocStackLogging:
+      enabled: false
+    SBDisableAutomaticMallocStackLogging:
+      enabled: false
+    SBDisableIdleSleep:
+      enabled: false
+    SBSystemGestureLogging:
+      enabled: false
+    AMBumpToWakeEnabled:
+      enabled: false
+    SBAndromedaMaximumFlipbookDuration:
+      enabled: false
+    SBMenuBarDemoMode:
+      enabled: false
+    SBStatusBarishLogOptions:
+      enabled: false
+    SBAppLibraryInDockEnabled:
+      enabled: false
+    SBRecentsEnabled:
+      enabled: false
+    dockCornerRadius:
+      enabled: false
+    dockMargin:
+      enabled: false
+    dockVerticalPadding:
+      enabled: false
+    dockAdditionalIconInset:
+      enabled: false
+    SBBacklightLevel2:
+      enabled: false
+    DisableIconGlassOutline:
+      enabled: false
+    SBAppIconForceTouchAnimationDurationMultiplier:
+      enabled: false
+    SBQuickActionAnimationDuration:
+      enabled: false
+    SBAppIconForceTouchEnableUIPreviewInteractionAnimations:
+      enabled: false
+    SBChamoisWindowingEnabled:
+      enabled: false
+    SBChamoisHideDockExternal:
+      enabled: false
+    SBChamoisHideStripsExternal:
+      enabled: false
+    SBDisableCaptureButton:
+      enabled: false
+    SBDisableProximity:
+      enabled: false
+    SBSuppressScreenSharingStatusBarOverridePreferenceKey:
+      enabled: false
+    SBCarPlayShowOptimalCellData:
+      enabled: false
+    SBDisableHomeButton:
+      enabled: false
+    SBForceAllPhoneAppsToBeResizableOnPad:
+      enabled: false
+    SBForceAllPhoneAppsToBeResizableOnResizableDisplays:
+      enabled: false
+    SBScreenLongevityDimInterval:
+      enabled: false
+    SBCaptureButtonAssociatedAppBundleIdentifier:
+      enabled: false
+    SBHomeScreenScreenTypeOverride:
+      enabled: false
+    SBPhoneInitiatedAppResizeWidth:
+      enabled: false
+    SBPhoneInitiatedAppResizeHeight:
+      enabled: false
+    SBCoverSheetGrabberSuccessfulPullCount:
+      enabled: false
+    DisableControlSymbolAnimations:
+      enabled: false
+    NavigationBarBackButtonShowsContextMenu:
+      enabled: false
+    DynamicIslandBorderWriteTest:
+      enabled: false
+    OTAUpdateBrainURL:
+      enabled: false
+    OTARestrictVersionChange:
+      enabled: false
+    OTARestrictFullReplacement:
+      enabled: false
+    OTARecoveryURL:
+      enabled: false
+    OTARecoveryBrainURL:
+      enabled: false
+    OTASoftwareUpdateURL:
+      enabled: false
+    OTAAssetAudience:
+      enabled: false
+    SiriAI:
+      enabled: false
+    ResetSiriAIOverrides:
+      enabled: false
+    LimitDisplayRefreshRate:
+      enabled: false
+    SBHomeScreenShowsSearchButton:
+      enabled: false
+    ClockAnim:
+      enabled: false
+    SBDontLockEver:
+      enabled: false
+    SBDisableAutoDim:
+      enabled: false
+    SolariumUseHDRGainMultiply:
+      enabled: false
+    SolariumEnableKeyboardExteriorEffects:
+      enabled: false
+    SolariumEnableDockExteriorEffects:
+      enabled: false
+    SolariumEnableReducedShadowVibrancy:
+      enabled: false
+    SolariumForceDarkShadow:
+      enabled: false
+    SolariumDisableFocusForegroundEffects:
+      enabled: false
+    SwiftUIGlassAppearanceAdjustments:
+      enabled: false
+    SwiftUIGlassTransitionAdjustments:
+      enabled: false
+    SwiftUIGlassBlurRadius:
+      enabled: false
+    SwiftUIGlassAppearanceScale:
+      enabled: false
+    SwiftUIGlassSpringDuration:
+      enabled: false
+    SwiftUIGlassSpringBounce:
+      enabled: false
+    SwiftUIGlassDelayFactor:
+      enabled: false
+    SwiftUIGlassMinDelay:
+      enabled: false
+    SwiftUIGlassMaxDelay:
+      enabled: false
+    SBShowGSMRSSI:
+      enabled: false
+    SBComingFromUserPowerDown:
+      enabled: false
+    SBBottomLeftCornerGestureTouchTypes:
+      enabled: false
+    SBBottomRightCornerGestureTouchTypes:
+      enabled: false
+    SBGestureRequiresEducationCorner:
+      enabled: false
+    SmartInvertSystemUI:
+      enabled: false
+    HWKeyboardCapsLockRomanSwitch:
+      enabled: false
+    GesturesEnabled:
+      enabled: false
+    RivenKeyboard:
+      enabled: false
+    KeyboardContinuousPathEnabled:
+      enabled: false
+    LogFileStorageCount:
+      enabled: false
+    HarvestTraceOnDiskOnly:
+      enabled: false
+    SBEnableAlwaysOn:
+      enabled: false
+    UseAlternateGlassColorMatrix:
+      enabled: false
+    EmulateFallbackTreatment:
+      enabled: false
+    ForceCARendering:
+      enabled: false
+    PrototypeSettingsEnabled:
+      enabled: false
+    ActivePrototypingEnabled:
+      enabled: false
+    ClearPrototypeCachesForMigration:
+      enabled: false
+    DisableLiveActivities:
+      enabled: false
+    disableAnimations:
+      enabled: false
+    DisableSnapshots:
+      enabled: false
+    DisableTimelines:
+      enabled: false
+    DisablePlaceholders:
+      enabled: false
+    LayerSnapshotter_USE_CAML:
+      enabled: false
+    DelayRendererStartup:
+      enabled: false
+    SwiftUIGlassGroupEnabled:
+      enabled: false
+    UIKitAnimationDurationScale:
+      enabled: false
+    GlassFeatureSwiftUI:
+      enabled: false
+    GlassFeatureSpringBoard:
+      enabled: false
+    GlassFeatureIcons:
+      enabled: false
+    GlassFeatureDocumentCamera:
+      enabled: false
+    GlassFeaturePhotos:
+      enabled: false
+    GlassFeatureMediaServices:
+      enabled: false
+    GlassFeatureSharing:
+      enabled: false
+    GlassFeatureMail:
+      enabled: false
+    UIViewGlassLegibilitySetting:
+      enabled: false
+    CollectionTableAnimationsUseSpringCurve:
+      enabled: false
+    DirectionalScrollAnimationDuration:
+      enabled: false
+    DisableAppLaunchTelemetry:
+      enabled: false
+    DisableSpotlightRankingCollection:
+      enabled: false
+    DisableSpotlightServerFeedback:
+      enabled: false
+    DisableCloudTelemetryService:
+      enabled: false
+    DisableSiriSelfMetrics:
+      enabled: false
+    DisableContactsQueryMetrics:
+      enabled: false
+    DisableCallActivityMetrics:
+      enabled: false
+    IgnoreCommercePingMetrics:
+      enabled: false
+    DisableRemoteItemIndexing:
+      enabled: false
+    DisableStoreKitUILogging:
+      enabled: false
+    DisableMusicArtworkMotion:
+      enabled: false
+    DiscreteScrollAnimationEnabled:
+      enabled: false
+    DiscreteScrollAnimationDuration:
+      enabled: false
+    AllowScreenShot:
+      enabled: false
+    CanExceedEUVolumeLimit:
+      enabled: false
+    HeadphoneVolumeLimit:
+      enabled: false
+    ReindexAttemptsWithoutProgress:
+      enabled: false
+    AccountDarkWakeEnabled:
+      enabled: false
+    AVTUIGlobalPreferencesFlushStickersCache:
+      enabled: false
+    AVTAvatarUIFlushThumbnailCache:
+      enabled: false
+    BlockAllAppSiriSuggestions:
+      enabled: false
+    ShowSystemServicesLocationIcon:
+      enabled: false
+    SpotlightLaunchWatchdogTimeout:
+      enabled: false
+    AppAndAccessoryAnalyticsAllowedRemoval:
+      enabled: false
+    LogAllIOErrors:
+      enabled: false
+    DeferDiagnosticExtensionTracker:
+      enabled: false
+    SPUISearchFirstTimeShowCount:
+      enabled: false
+    PersonalizedAdsDefaulted:
+      enabled: false
+    UseAppstoredUpdates2:
+      enabled: false
+    DisableMailSearchReceiver:
+      enabled: false
+    DeferMailSearchTaskBaseDate:
+      enabled: false
+    GlassContainerContentShapeResearch:
+      enabled: false
+    GlassEffectContentShapeResearch:
+      enabled: false
+    coreanimation_prelayout:
+      enabled: false
+    uikit_prelayout:
+      enabled: false
+    fluid_zoom_transitions:
+      enabled: false
+    uip_fluid_transitions:
+      enabled: false
+    layer_naming:
+      enabled: false
+    ucb_redesign:
+      enabled: false
+    content_backswipe:
+      enabled: false
+    DisableSwiftUIScrollPrefetch:
+      enabled: false
+    enhanced_main_menu:
+      enabled: false
+    async_text_input_iphone:
+      enabled: false
+    bidi_copy_paste:
+      enabled: false
+    bidi_undo:
+      enabled: false
+    combined_productivity_tap_gestures:
+      enabled: false
+    content_text_extraction:
+      enabled: false
+    dci_multiselect:
+      enabled: false
+    emoji_enhancements:
+      enabled: false
+    gestures_framework:
+      enabled: false
+    inline_dictation_glow_effect:
+      enabled: false
+    inline_text_completion_education_ui_enabled:
+      enabled: false
+    inline_text_completion_spacebar_accepts:
+      enabled: false
+    keyboard_autocorrection_push_clear_request:
+      enabled: false
+    keyboard_ch_audio_only:
+      enabled: false
+    keyboard_dock_use_oval_hit_area:
+      enabled: false
+    keyboard_input_numberpad_popover:
+      enabled: false
+    keyboard_language_indicator:
+      enabled: false
+    keyboard_multilingual_education_ui:
+      enabled: false
+    keyboard_oop_using_end_input_session_completion:
+      enabled: false
+    keyboard_solarium_feedback:
+      enabled: false
+    keyboard_suggestions_only_mode:
+      enabled: false
+    keyboard_visceral:
+      enabled: false
+    productivity_system_gestures:
+      enabled: false
+    redesigned_candidate_ui:
+      enabled: false
+    redesigned_text_cursor:
+      enabled: false
+    suppress_inauthentic_touches:
+      enabled: false
+    text_formatting_for_text_view:
+      enabled: false
+    textfield_textlayoutmanager:
+      enabled: false
+    textview_textlayoutmanager:
+      enabled: false
+    textview_textlayoutmanager_include_older_apps:
+      enabled: false
+    visual_bidi_selections:
+      enabled: false
+    dictation_adaptive_delete_ios:
+      enabled: false
+    dictation_continuous:
+      enabled: false
+    dictation_voice_commands_adjacent_edits:
+      enabled: false
+    dictation_voice_commands_ui_redesign:
+      enabled: false
+    InlineCompletionsFullAcceptanceBySpace:
+      enabled: false
+    multiscript_keyboard:
+      enabled: false
+    multiscript_keyboard_expansion1:
+      enabled: false
+    arabic_transliteration:
+      enabled: false
+    HiddenWindowsPill:
+      enabled: false
+    FullScreenLetterboxing:
+      enabled: false
+    OnenessHomeScreenEditing:
+      enabled: false
+    SAEIncreasedInset:
+      enabled: false
+    SAETappyHomeAffordance:
+      enabled: false
+    ChamoisWindowDragInteraction:
+      enabled: false
+    ChamoisWindowingUI:
+      enabled: false
+    DisableCollectionViewPrefetching:
+      enabled: false
+    TableViewCellPrefetchingModeResearch:
+      enabled: false
+    SpotlightMetricsWritingResearch:
+      enabled: false
+    ICloudBackgroundTaskSchedulingResearch:
+      enabled: false
+    DASFairSchedulingQueueResearch:
+      enabled: false
+    AVConferenceThermalLightMitigationsResearch:
+      enabled: false
+    IPCSMemoryTransactionResearch:
+      enabled: false
+    IPCSMemoryReductionResearch:
+      enabled: false
+    SwiftUIPersistentLazyStackCache:
+      enabled: false
+    SwiftUIHitTestingCache:
+      enabled: false
+    SwiftUIDisableAsyncRendering:
+      enabled: false
+    SwiftUIGestureContainers:
+      enabled: false
+    SwiftUIUniversalGestureRelationships:
+      enabled: false
+    SwiftUIDisableRemoteEffects:
+      enabled: false
+    SwiftUINewScrollEdgeEffectTag:
+      enabled: false
+    SwiftUIStackLayoutOptimizationsResearch:
+      enabled: false
+    SwiftUIEnableUnifiedLayoutResearch:
+      enabled: false
+    UIKitC2LowRefreshRateEnabled:
+      enabled: false
+    DuoLimitedResizingApp:
+      enabled: false
+    KeyboardImageCaching:
+      enabled: false
+    UIKeyboardGrayscaleCachingEnabled:
+      enabled: false
+    UIKeyboardCachingLockOnRead:
+      enabled: false
+    IdleSchedulerMinimumFramesBetweenNotify:
+      enabled: false
+    BGAppKillDemo:
+      enabled: false
+    DASDisableFairSchedulingQueue:
+      enabled: false
+    SpotlightMetricsWriting:
+      enabled: false
+    ICloudBackgroundTaskScheduling:
+      enabled: false
+    DuetActivitySchedulerDefaults:
+      enabled: false
+    DASActivityDurationTracking:
+      enabled: false
+    PowerLogPreferences:
+      enabled: false
+    PhotoAnalysisdPreferences:
+      enabled: false
+    ActivityAwardsPreferences:
+      enabled: false
+    AdPlatformsTelemetry:
+      enabled: false
+    APSDPushScheduling:
+      enabled: false
+    OSAnalyticsPreferences:
+      enabled: false
+    CoreDuetPreferences:
+      enabled: false
+    SystemReduceMotion:
+      enabled: false
+    SystemReduceTransparency:
+      enabled: false
+    SystemAutoplayAnimatedImages:
+      enabled: false
+    SystemAutoplayMessageEffects:
+      enabled: false
+    SystemAttentionAware:
+      enabled: false
+    HomeScreenReduceMotion:
+      enabled: false
+    SystemLiveSpeech:
+      enabled: false
+    SystemRCSBusinessMessages:
+      enabled: false
+    SystemSiriSharingSuggestions:
+      enabled: false
+    SafariEarlyHints:
+      enabled: false
+    SafariLinkPrefetch:
+      enabled: false
+    SafariSpeculationPrefetch:
+      enabled: false
+    SafariBackgroundFetch:
+      enabled: false
+    SafariNetworkLoader:
+      enabled: false
+    SafariDeferScripts:
+      enabled: false
+    SafariGPUCanvas:
+      enabled: false
+    SafariGPUDOM:
+      enabled: false
+    SafariOffscreenCanvas:
+      enabled: false
+    SafariOffscreenWorkers:
+      enabled: false
+    SafariWebGPUHDR:
+      enabled: false
+    SafariWebGLWorkers:
+      enabled: false
+    SafariGraphicsFilters:
+      enabled: false
+    SafariNear60FPS:
+      enabled: false
+    SafariNextLayout:
+      enabled: false
+    SafariLazyImages:
+      enabled: false
+    SafariHDRDisplay:
+      enabled: false
+    SafariCrossSiteProcesses:
+      enabled: false
+    SafariSharedWorker:
+      enabled: false
+    SafariMediaWorker:
+      enabled: false
+    SafariCompression:
+      enabled: false
+    SafariThirdPartyCookieFlag:
+      enabled: false
+    SafariJavaScript:
+      enabled: false
+    SafariAdMeasurement:
+      enabled: false
+    SafariPreloadTopHit:
+      enabled: false
+    SafariEnhancedPrivacy:
+      enabled: false
+    SystemMessageSummarization:
+      enabled: false
+    LockScreenPredictionDonationsResearch:
+      enabled: false
+    WiFiKnownNetworksResearch:
+      enabled: false
+    SystemLockScreenMessaging:
+      enabled: false
+    HandoffAdvertisingCandidate:
+      enabled: false
+    SplitHWRKeyboardEnabled:
+      enabled: false
+  GNUGGET_VERSION: '10.0'
+Preset Version 2 (JSON): |-
+  {
+    "metadata": {
+      "name": "Solid Glass",
+      "author": "GoldenNugget Team",
+      "description": "Turns off the Liquid Glass look for the Dock and the Lock Screen clock.",
+      "ios_min": "26.0",
+      "tags": [
+        "liquid glass",
+        "minimal"
+      ],
+      "version": 2
+    },
+    "tweaks": {
+      "StatusBar": {
+        "enabled": false
+      },
+      "PosterKitOverrides": {
+        "enabled": false
+      },
+      "SBHomeScreenWallpapers": {
+        "enabled": false
+      },
+      "SBLockScreenWallpapers": {
+        "enabled": false
+      },
+      "GyroPoster": {
+        "enabled": false
+      },
+      "GyroPosterOcclusion": {
+        "enabled": false
+      },
+      "PhotosPosterBackdrop": {
+        "enabled": false
+      },
+      "PosterAdaptiveLayout": {
+        "enabled": false
+      },
+      "PosterPortraitHeadroom": {
+        "enabled": false
+      },
+      "PosterEditorKashida": {
+        "enabled": false
+      },
+      "Loquat": {
+        "enabled": false
+      },
+      "MoMA": {
+        "enabled": false
+      },
+      "HomeScreenWallpaperEditor": {
+        "enabled": false
+      },
+      "SkipPrecacheWallpaperStyles": {
+        "enabled": false
+      },
+      "LockScreenFootnote": {
+        "enabled": false
+      },
+      "WatchOSCompatibility": {
+        "enabled": false
+      },
+      "AirDropDisableTimeLimit": {
+        "enabled": false
+      },
+      "SBDontLockAfterCrash": {
+        "enabled": false
+      },
+      "SBDontDimOrLockOnAC": {
+        "enabled": false
+      },
+      "SBHideLowPowerAlerts": {
+        "enabled": false
+      },
+      "SBHideACPower": {
+        "enabled": false
+      },
+      "SBNeverBreadcrumb": {
+        "enabled": false
+      },
+      "SBShowSupervisionTextOnLockScreen": {
+        "enabled": false
+      },
+      "AirplaySupport": {
+        "enabled": false
+      },
+      "SBMinimumLockscreenIdleTime": {
+        "enabled": false
+      },
+      "SBAlwaysShowSystemApertureInSnapshots": {
+        "enabled": false
+      },
+      "HideDICompletely": {
+        "enabled": false
+      },
+      "SBShowAuthenticationEngineeringUI": {
+        "enabled": false
+      },
+      "UseFloatingTabBar": {
+        "enabled": false
+      },
+      "KeyboardShouldSplitInDefaultContext": {
+        "enabled": false
+      },
+      "KeyboardShouldSplitInSplitPreferringContext": {
+        "enabled": false
+      },
+      "UIKeyboardPersistentSplitProgress": {
+        "enabled": false
+      },
+      "UIKeyboardPersistentSplitLock": {
+        "enabled": false
+      },
+      "SBDisableIconParallax": {
+        "enabled": false
+      },
+      "SBHideSearchAffordance": {
+        "enabled": false
+      },
+      "SBBuildNumber": {
+        "enabled": false
+      },
+      "RTL": {
+        "enabled": false
+      },
+      "LTR": {
+        "enabled": false
+      },
+      "SBIconVisibility": {
+        "enabled": false
+      },
+      "MetalForceHudEnabled": {
+        "enabled": false
+      },
+      "iMessageDiagnosticsEnabled": {
+        "enabled": false
+      },
+      "IDSDiagnosticsEnabled": {
+        "enabled": false
+      },
+      "VCDiagnosticsEnabled": {
+        "enabled": false
+      },
+      "AccessoryDeveloperEnabled": {
+        "enabled": false
+      },
+      "DisableSecondsHand": {
+        "enabled": false
+      },
+      "DisableSearchingWebsites": {
+        "enabled": false
+      },
+      "ShowButtonHints": {
+        "enabled": false
+      },
+      "AppStoreDebug": {
+        "enabled": false
+      },
+      "NotesDebugMode": {
+        "enabled": false
+      },
+      "BKDigitizerVisualizeTouches": {
+        "enabled": false
+      },
+      "BKHideAppleLogoOnLaunch": {
+        "enabled": false
+      },
+      "EnableWakeGestureHaptic": {
+        "enabled": false
+      },
+      "PlaySoundOnPaste": {
+        "enabled": false
+      },
+      "AnnounceAllPastes": {
+        "enabled": false
+      },
+      "ForceSolariumFallback": {
+        "enabled": false
+      },
+      "DisableSolarium": {
+        "enabled": false
+      },
+      "IgnoreSolariumLinkedOnCheck": {
+        "enabled": false
+      },
+      "NoLiquidClock": {
+        "enabled": true,
+        "value": true
+      },
+      "NoLiquidDock": {
+        "enabled": true,
+        "value": true
+      },
+      "DisableSpecularMotion": {
+        "enabled": false
+      },
+      "DisableOuterRefraction": {
+        "enabled": false
+      },
+      "DisableSolariumHDR": {
+        "enabled": false
+      },
+      "DisallowGlassButtons": {
+        "enabled": false
+      },
+      "DisallowGlassLockScreen": {
+        "enabled": false
+      },
+      "ForceEnhancedSpeculars": {
+        "enabled": false
+      },
+      "ForceSolariumIntelligence": {
+        "enabled": false
+      },
+      "UISolariumFallback": {
+        "enabled": false
+      },
+      "IgnoreSolariumHardwareCheck": {
+        "enabled": false
+      },
+      "IgnoreSolariumOptOut": {
+        "enabled": false
+      },
+      "DisableSpecularEverywhere": {
+        "enabled": false
+      },
+      "DisableWidgetSpecular": {
+        "enabled": false
+      },
+      "DisableDockSpecular": {
+        "enabled": false
+      },
+      "DisableFolderSpecular": {
+        "enabled": false
+      },
+      "ExcludeClearGlassShadows": {
+        "enabled": false
+      },
+      "ExcludeDockShadow": {
+        "enabled": false
+      },
+      "ExcludeSearchShadow": {
+        "enabled": false
+      },
+      "UseFlatIconsEverywhere": {
+        "enabled": false
+      },
+      "GlassContainerLogging": {
+        "enabled": false
+      },
+      "FlexiGlassMacOS": {
+        "enabled": false
+      },
+      "FlexiGlassMacOSPointer": {
+        "enabled": false
+      },
+      "InvisibilitySuppressesGlass": {
+        "enabled": false
+      },
+      "EnableGlassEffectBridgeLayers": {
+        "enabled": false
+      },
+      "EnableGaussianGlassEffectBridgeLayers": {
+        "enabled": false
+      },
+      "UnifiedSystemBackgroundColorsEnabled": {
+        "enabled": false
+      },
+      "UnaryGlassContainerEnabled": {
+        "enabled": false
+      },
+      "EnableSolariumCompactChrome": {
+        "enabled": false
+      },
+      "DisableSolariumCompactChrome": {
+        "enabled": false
+      },
+      "SolariumIncreasedDiffusion": {
+        "enabled": false
+      },
+      "SolariumUseDisplayAngle": {
+        "enabled": false
+      },
+      "SolariumTintMask": {
+        "enabled": false
+      },
+      "SolariumBackgroundFilter": {
+        "enabled": false
+      },
+      "SolariumHighlightWhite": {
+        "enabled": false
+      },
+      "SolariumLiveTuning": {
+        "enabled": false
+      },
+      "SolariumHierarchicalStyle": {
+        "enabled": false
+      },
+      "GlassHierarchicalStyle": {
+        "enabled": false
+      },
+      "GlassVisualDebug": {
+        "enabled": false
+      },
+      "GlassVisualWarnings": {
+        "enabled": false
+      },
+      "BlurFillExperiment": {
+        "enabled": false
+      },
+      "AdaptiveGlassHysteresisDarkRange": {
+        "enabled": false
+      },
+      "AdaptiveGlassHysteresisLightRange": {
+        "enabled": false
+      },
+      "CalistogaLargeRefraction": {
+        "enabled": false
+      },
+      "CalistogaRegularClearer": {
+        "enabled": false
+      },
+      "CalistogaBackdropMarginIncludesBlur": {
+        "enabled": false
+      },
+      "CalistogaAllowLumaTracking": {
+        "enabled": false
+      },
+      "CalistogaSidebarAccentOpacity": {
+        "enabled": false
+      },
+      "CalistogaPerceptualBackdropScale": {
+        "enabled": false
+      },
+      "CalistogaKeyboardGlass": {
+        "enabled": false
+      },
+      "CalistogaCameraGlass": {
+        "enabled": false
+      },
+      "FloatingContentViewSpecularHighlightOpacity": {
+        "enabled": false
+      },
+      "FloatingContentViewUnfocusedBorderOpacity": {
+        "enabled": false
+      },
+      "FloatingContentViewUnfocusedBorderWidth": {
+        "enabled": false
+      },
+      "FloatingContentViewEnableBackgroundFills": {
+        "enabled": false
+      },
+      "FloatingContentViewDebugBackgroundFills": {
+        "enabled": false
+      },
+      "FloatingContentViewPunchoutShadow": {
+        "enabled": false
+      },
+      "FloatingContentViewModifyTransformMode": {
+        "enabled": false
+      },
+      "FloatingContentViewOverrideRotationX": {
+        "enabled": false
+      },
+      "FloatingContentViewOverrideRotationY": {
+        "enabled": false
+      },
+      "FloatingContentViewOverrideTranslationX": {
+        "enabled": false
+      },
+      "FloatingContentViewOverrideTranslationY": {
+        "enabled": false
+      },
+      "FloatingContentViewModifyRotationStrength": {
+        "enabled": false
+      },
+      "FloatingContentViewModifyTranslationStrength": {
+        "enabled": false
+      },
+      "FocusSpecularHighlightMaxSize": {
+        "enabled": false
+      },
+      "FocusSpecularHighlightScaleFactor": {
+        "enabled": false
+      },
+      "FocusSpecularHighlightSensitivity": {
+        "enabled": false
+      },
+      "FocusSpecularHighlightNormalizedPositionX": {
+        "enabled": false
+      },
+      "FocusSpecularHighlightNormalizedPositionY": {
+        "enabled": false
+      },
+      "NewStackedImageRenderingEnabled": {
+        "enabled": false
+      },
+      "NewStackedImageFiltersEnabled": {
+        "enabled": false
+      },
+      "NewStackedImage3DTransformsEnabled": {
+        "enabled": false
+      },
+      "NewStackedImage3DTransformedGlassLayer": {
+        "enabled": false
+      },
+      "NewStackedImageSpecularEnabled": {
+        "enabled": false
+      },
+      "NewStackedImageSpecularOpacity": {
+        "enabled": false
+      },
+      "NewStackedImageRadiosityEnabled": {
+        "enabled": false
+      },
+      "NewStackedImageForceAdjustMotionForSize": {
+        "enabled": false
+      },
+      "NewStackedImageForceDefaultScaleSizeIncrease": {
+        "enabled": false
+      },
+      "NewStackedImageInnerParallaxScale": {
+        "enabled": false
+      },
+      "NewStackedImageAsymmetricScale": {
+        "enabled": false
+      },
+      "NewStackedImageProgressiveScale": {
+        "enabled": false
+      },
+      "NewStackedImageAdditionalTranslation": {
+        "enabled": false
+      },
+      "NewStackedImageFocusedAdditionalScaleAmount": {
+        "enabled": false
+      },
+      "StackedImageContainerDefaultMaxDepth": {
+        "enabled": false
+      },
+      "StackedImageContainerDefaultRotationX": {
+        "enabled": false
+      },
+      "StackedImageContainerDefaultRotationY": {
+        "enabled": false
+      },
+      "StackedImageContainerDefaultTranslationX": {
+        "enabled": false
+      },
+      "StackedImageContainerDefaultTranslationY": {
+        "enabled": false
+      },
+      "StackedImageContainerModifyMaxDepthStrength": {
+        "enabled": false
+      },
+      "StackedImageContainerModifyRotationStrength": {
+        "enabled": false
+      },
+      "StackedImageContainerModifyTranslationStrength": {
+        "enabled": false
+      },
+      "StackedImageContainerModifyInnerParallaxScaleStrength": {
+        "enabled": false
+      },
+      "StackedImageContainerModifyTransformMinWidth": {
+        "enabled": false
+      },
+      "StackedImageContainerModifyTransformMaxWidth": {
+        "enabled": false
+      },
+      "StackedImageContainerModifyTransformMinHeight": {
+        "enabled": false
+      },
+      "StackedImageContainerModifyTransformMaxHeight": {
+        "enabled": false
+      },
+      "Daemons": {
+        "enabled": false
+      },
+      "ClearScreenTimeAgentPlist": {
+        "enabled": false
+      },
+      "DisableSystemAperture": {
+        "enabled": false
+      },
+      "SolariumEnableHomeScreenExteriorEffects": {
+        "enabled": false
+      },
+      "SolariumNoBlurReducedFrost": {
+        "enabled": false
+      },
+      "ReduceHighlightingEffectsEnabled": {
+        "enabled": false
+      },
+      "SolariumKeyboardUpdateRate": {
+        "enabled": false
+      },
+      "SBDisableLiveIcons": {
+        "enabled": false
+      },
+      "SBDisableIconFlyInAnimation": {
+        "enabled": false
+      },
+      "SBDisableParallaxOnPageControl": {
+        "enabled": false
+      },
+      "SBHideReportWidgetStackRotationQuickAction": {
+        "enabled": false
+      },
+      "SBWidgetSnapshottingEnabled": {
+        "enabled": false
+      },
+      "SBCoverSheetPrewarmCameraOnSwipe": {
+        "enabled": false
+      },
+      "SBCoverSheetPrelaunchCameraOnSwipe": {
+        "enabled": false
+      },
+      "SBCoverSheetPrewarmCameraOnButtonTouch": {
+        "enabled": false
+      },
+      "SBCoverSheetPrelaunchCameraOnButtonTouch": {
+        "enabled": false
+      },
+      "SBSuppressNoSimAlert": {
+        "enabled": false
+      },
+      "SBIgnoreMinimumRequiredSDKVersionForWidgets": {
+        "enabled": false
+      },
+      "SBShowInternalApps": {
+        "enabled": false
+      },
+      "SBPIPInitiallyUsesMinimumPreferredContentSize": {
+        "enabled": false
+      },
+      "SBDisableAsyncRenderingSurfaceRetention": {
+        "enabled": false
+      },
+      "SBEnableDynamicJetsamLimits": {
+        "enabled": false
+      },
+      "SBAlwaysRenderSystemApertureFillOnGPU": {
+        "enabled": false
+      },
+      "SBNeverRenderSystemApertureFillOnGPU": {
+        "enabled": false
+      },
+      "SBKillableInAppSwitcher": {
+        "enabled": false
+      },
+      "SBChamoisHideStrips": {
+        "enabled": false
+      },
+      "SBChamoisHideDock": {
+        "enabled": false
+      },
+      "SBBackgroundNethermostWindows": {
+        "enabled": false
+      },
+      "SBFlexibleWindowingManualStageCreationShouldRestorePreviousOpenWindows": {
+        "enabled": false
+      },
+      "SBCoverSheetUseDefaultsValuesForCameraPrewarm": {
+        "enabled": false
+      },
+      "SBMaxIconListCount": {
+        "enabled": false
+      },
+      "SBCoverSheetCameraPrewarmThreshold": {
+        "enabled": false
+      },
+      "SBCoverSheetCameraPrelaunchThreshold": {
+        "enabled": false
+      },
+      "SBCoverSheetPlayerTimeout": {
+        "enabled": false
+      },
+      "SBSuppressAppShortcutTruncation": {
+        "enabled": false
+      },
+      "SBShouldInsertDownloadFileStackIconToFloatingDock": {
+        "enabled": false
+      },
+      "SBCoverSheetProportionalAdaptiveTime": {
+        "enabled": false
+      },
+      "SBNotificationCenterUseDuet": {
+        "enabled": false
+      },
+      "SBBatteryWidgetAlwaysAvailable": {
+        "enabled": false
+      },
+      "SBAlwaysAllowLongLookGesture": {
+        "enabled": false
+      },
+      "SBWantsManyForegroundWindows": {
+        "enabled": false
+      },
+      "SBCameraShutterButtonShouldUsePocketDetection": {
+        "enabled": false
+      },
+      "SBPlaySoundOnDeviceWake": {
+        "enabled": false
+      },
+      "SBDismissControlCenterElsewhereOnPresentation": {
+        "enabled": false
+      },
+      "SBCameraShutterButtonLongPressTimeout": {
+        "enabled": false
+      },
+      "SBCameraShutterButtonLongPressCancellationTimeout": {
+        "enabled": false
+      },
+      "SBForceMedusaAdoption": {
+        "enabled": false
+      },
+      "SBIgnoreSBUsesNetwork": {
+        "enabled": false
+      },
+      "SBEnableModalWidgetDiscoverabilityForTesting": {
+        "enabled": false
+      },
+      "SBWidgetSnapshotDebugLabels": {
+        "enabled": false
+      },
+      "SBWidgetLogging": {
+        "enabled": false
+      },
+      "SBHijackSpotlightButtonActionForPrototyping": {
+        "enabled": false
+      },
+      "SBPIPVisualizeKeyboardFrame": {
+        "enabled": false
+      },
+      "SBPIPVisualizePositionRegions": {
+        "enabled": false
+      },
+      "SBEnableVideoRotation": {
+        "enabled": false
+      },
+      "SBPostModernRotationForciblyEnabled": {
+        "enabled": false
+      },
+      "SBCoverSheetDisableDeviceMotionEffectPerformanceOptimizations": {
+        "enabled": false
+      },
+      "SBAlwaysShowSystemApertureOnClonedDisplays": {
+        "enabled": false
+      },
+      "SBEnableSystemApertureStateCollection": {
+        "enabled": false
+      },
+      "SBShowRSSI": {
+        "enabled": false
+      },
+      "SBShowThermalWarning": {
+        "enabled": false
+      },
+      "SBShowStatusBarOverridesForRecording": {
+        "enabled": false
+      },
+      "SBTestBannerPlaysTextTone": {
+        "enabled": false
+      },
+      "SBAlwaysAllowDefaultAction": {
+        "enabled": false
+      },
+      "SBTrackPowerEvents": {
+        "enabled": false
+      },
+      "SBSimulateCaptureButtonUsingActionButton": {
+        "enabled": false
+      },
+      "SBDisablePreLaunchCaptureButtonSuppression": {
+        "enabled": false
+      },
+      "SBCaptureButtonDisableWakeWhenDim": {
+        "enabled": false
+      },
+      "SBCaptureButtonDisableStationaryDetection": {
+        "enabled": false
+      },
+      "SBCaptureButtonDisableDirectLaunchAfterUnsuppress": {
+        "enabled": false
+      },
+      "SBCaptureButtonEnableCameraPose": {
+        "enabled": false
+      },
+      "SBBundleIdentifierToForceHomeAffordanceInset": {
+        "enabled": false
+      },
+      "SBLeftOfHomeAppBundleIdentifier": {
+        "enabled": false
+      },
+      "SBSwitcherBottomEdgeGestureSwipeCount": {
+        "enabled": false
+      },
+      "SBNotificationVisibleIdleTimer": {
+        "enabled": false
+      },
+      "SBMainDisplayDarkeningPercentage": {
+        "enabled": false
+      },
+      "SBShowLegalTextOnLockScreen": {
+        "enabled": false
+      },
+      "SBHideNotifications": {
+        "enabled": false
+      },
+      "SBShowQuickNoteFingerGestureRecognizer": {
+        "enabled": false
+      },
+      "SBCoverSheetForceWakeToMaps": {
+        "enabled": false
+      },
+      "SBCoverSheetWeDontNeedNoEducation": {
+        "enabled": false
+      },
+      "SBFolderViewSuppressSetCurrentPage": {
+        "enabled": false
+      },
+      "SBHomeSidebarIsPinned": {
+        "enabled": false
+      },
+      "SBCoverSheetUseDefaultsForDateTimeOverrides": {
+        "enabled": false
+      },
+      "SBCoverSheetOverridesDateTimeIntervalSince1970": {
+        "enabled": false
+      },
+      "SBCoverSheetOverridesDateTimeToDefaultToday": {
+        "enabled": false
+      },
+      "SBCoverSheetOverridesDateTimeToDefaultPast": {
+        "enabled": false
+      },
+      "SBCoverSheetQuickActionOverrideBundleLeading": {
+        "enabled": false
+      },
+      "SBCoverSheetQuickActionOverrideBundleTrailing": {
+        "enabled": false
+      },
+      "SBCoverSheetQuickActionOverrideContainerLeading": {
+        "enabled": false
+      },
+      "SBCoverSheetQuickActionOverrideContainerTrailing": {
+        "enabled": false
+      },
+      "SBCoverSheetQuickActionOverrideKindLeading": {
+        "enabled": false
+      },
+      "SBCoverSheetQuickActionOverrideKindTrailing": {
+        "enabled": false
+      },
+      "SBSupressAlertsForKeynote": {
+        "enabled": false
+      },
+      "SBIgnoreCaptureApplicationLaunchMonitor": {
+        "enabled": false
+      },
+      "SBShouldShowSplitPeekEducation": {
+        "enabled": false
+      },
+      "SBShouldShowSlideOverPeekEducation": {
+        "enabled": false
+      },
+      "SBHomeShouldShowLibraryEducationView": {
+        "enabled": false
+      },
+      "SBShouldShowWidgetIntroductionPage": {
+        "enabled": false
+      },
+      "SBExternalDisplayContentsScaleAndDontFileRadars": {
+        "enabled": false
+      },
+      "showInternalWidgets": {
+        "enabled": false
+      },
+      "AMAmbientIgnoreBatteryCharging": {
+        "enabled": false
+      },
+      "AMAlwaysUpdateIconModelOnAmbientWidgetLayoutChange": {
+        "enabled": false
+      },
+      "SBTrackpadSwitcherGesturesEnabled": {
+        "enabled": false
+      },
+      "SBDisableHomeButtonDoublePress": {
+        "enabled": false
+      },
+      "SBAlwaysOnTapToInteract": {
+        "enabled": false
+      },
+      "SBAlwaysOnSwipeToUnlock": {
+        "enabled": false
+      },
+      "SBAndromedaDebugColors": {
+        "enabled": false
+      },
+      "SBUseAlwaysOnBrightnessCurve": {
+        "enabled": false
+      },
+      "SBEnforceOverallAPLLimit": {
+        "enabled": false
+      },
+      "SBShouldAddDefaultWidgetsToHomeScreen": {
+        "enabled": false
+      },
+      "SBShouldUpgradeEnableWidgetSuggestions": {
+        "enabled": false
+      },
+      "SBShouldResetDefaultTodayList": {
+        "enabled": false
+      },
+      "SBShouldResetStackForDefaultTodayList": {
+        "enabled": false
+      },
+      "SBCaptureButtonAllowLaunchIfUnobstructionOccursWhileButtonDown": {
+        "enabled": false
+      },
+      "SBCaptureButtonAllowLaunchIfUnobstructionOccursPromptlyAfterButtonUp": {
+        "enabled": false
+      },
+      "SBWalletPreArmForceLockButton": {
+        "enabled": false
+      },
+      "SBEnableExtraBacklightLogging": {
+        "enabled": false
+      },
+      "SBShouldLaunchWithMallocStackLogging": {
+        "enabled": false
+      },
+      "SBDisableAutomaticMallocStackLogging": {
+        "enabled": false
+      },
+      "SBDisableIdleSleep": {
+        "enabled": false
+      },
+      "SBSystemGestureLogging": {
+        "enabled": false
+      },
+      "AMBumpToWakeEnabled": {
+        "enabled": false
+      },
+      "SBAndromedaMaximumFlipbookDuration": {
+        "enabled": false
+      },
+      "SBMenuBarDemoMode": {
+        "enabled": false
+      },
+      "SBStatusBarishLogOptions": {
+        "enabled": false
+      },
+      "SBAppLibraryInDockEnabled": {
+        "enabled": false
+      },
+      "SBRecentsEnabled": {
+        "enabled": false
+      },
+      "dockCornerRadius": {
+        "enabled": false
+      },
+      "dockMargin": {
+        "enabled": false
+      },
+      "dockVerticalPadding": {
+        "enabled": false
+      },
+      "dockAdditionalIconInset": {
+        "enabled": false
+      },
+      "SBBacklightLevel2": {
+        "enabled": false
+      },
+      "DisableIconGlassOutline": {
+        "enabled": false
+      },
+      "SBAppIconForceTouchAnimationDurationMultiplier": {
+        "enabled": false
+      },
+      "SBQuickActionAnimationDuration": {
+        "enabled": false
+      },
+      "SBAppIconForceTouchEnableUIPreviewInteractionAnimations": {
+        "enabled": false
+      },
+      "SBChamoisWindowingEnabled": {
+        "enabled": false
+      },
+      "SBChamoisHideDockExternal": {
+        "enabled": false
+      },
+      "SBChamoisHideStripsExternal": {
+        "enabled": false
+      },
+      "SBDisableCaptureButton": {
+        "enabled": false
+      },
+      "SBDisableProximity": {
+        "enabled": false
+      },
+      "SBSuppressScreenSharingStatusBarOverridePreferenceKey": {
+        "enabled": false
+      },
+      "SBCarPlayShowOptimalCellData": {
+        "enabled": false
+      },
+      "SBDisableHomeButton": {
+        "enabled": false
+      },
+      "SBForceAllPhoneAppsToBeResizableOnPad": {
+        "enabled": false
+      },
+      "SBForceAllPhoneAppsToBeResizableOnResizableDisplays": {
+        "enabled": false
+      },
+      "SBScreenLongevityDimInterval": {
+        "enabled": false
+      },
+      "SBCaptureButtonAssociatedAppBundleIdentifier": {
+        "enabled": false
+      },
+      "SBHomeScreenScreenTypeOverride": {
+        "enabled": false
+      },
+      "SBPhoneInitiatedAppResizeWidth": {
+        "enabled": false
+      },
+      "SBPhoneInitiatedAppResizeHeight": {
+        "enabled": false
+      },
+      "SBCoverSheetGrabberSuccessfulPullCount": {
+        "enabled": false
+      },
+      "DisableControlSymbolAnimations": {
+        "enabled": false
+      },
+      "NavigationBarBackButtonShowsContextMenu": {
+        "enabled": false
+      },
+      "DynamicIslandBorderWriteTest": {
+        "enabled": false
+      },
+      "OTAUpdateBrainURL": {
+        "enabled": false
+      },
+      "OTARestrictVersionChange": {
+        "enabled": false
+      },
+      "OTARestrictFullReplacement": {
+        "enabled": false
+      },
+      "OTARecoveryURL": {
+        "enabled": false
+      },
+      "OTARecoveryBrainURL": {
+        "enabled": false
+      },
+      "OTASoftwareUpdateURL": {
+        "enabled": false
+      },
+      "OTAAssetAudience": {
+        "enabled": false
+      },
+      "SiriAI": {
+        "enabled": false
+      },
+      "ResetSiriAIOverrides": {
+        "enabled": false
+      },
+      "LimitDisplayRefreshRate": {
+        "enabled": false
+      },
+      "SBHomeScreenShowsSearchButton": {
+        "enabled": false
+      },
+      "ClockAnim": {
+        "enabled": false
+      },
+      "SBDontLockEver": {
+        "enabled": false
+      },
+      "SBDisableAutoDim": {
+        "enabled": false
+      },
+      "SolariumUseHDRGainMultiply": {
+        "enabled": false
+      },
+      "SolariumEnableKeyboardExteriorEffects": {
+        "enabled": false
+      },
+      "SolariumEnableDockExteriorEffects": {
+        "enabled": false
+      },
+      "SolariumEnableReducedShadowVibrancy": {
+        "enabled": false
+      },
+      "SolariumForceDarkShadow": {
+        "enabled": false
+      },
+      "SolariumDisableFocusForegroundEffects": {
+        "enabled": false
+      },
+      "SwiftUIGlassAppearanceAdjustments": {
+        "enabled": false
+      },
+      "SwiftUIGlassTransitionAdjustments": {
+        "enabled": false
+      },
+      "SwiftUIGlassBlurRadius": {
+        "enabled": false
+      },
+      "SwiftUIGlassAppearanceScale": {
+        "enabled": false
+      },
+      "SwiftUIGlassSpringDuration": {
+        "enabled": false
+      },
+      "SwiftUIGlassSpringBounce": {
+        "enabled": false
+      },
+      "SwiftUIGlassDelayFactor": {
+        "enabled": false
+      },
+      "SwiftUIGlassMinDelay": {
+        "enabled": false
+      },
+      "SwiftUIGlassMaxDelay": {
+        "enabled": false
+      },
+      "SBShowGSMRSSI": {
+        "enabled": false
+      },
+      "SBComingFromUserPowerDown": {
+        "enabled": false
+      },
+      "SBBottomLeftCornerGestureTouchTypes": {
+        "enabled": false
+      },
+      "SBBottomRightCornerGestureTouchTypes": {
+        "enabled": false
+      },
+      "SBGestureRequiresEducationCorner": {
+        "enabled": false
+      },
+      "SmartInvertSystemUI": {
+        "enabled": false
+      },
+      "HWKeyboardCapsLockRomanSwitch": {
+        "enabled": false
+      },
+      "GesturesEnabled": {
+        "enabled": false
+      },
+      "RivenKeyboard": {
+        "enabled": false
+      },
+      "KeyboardContinuousPathEnabled": {
+        "enabled": false
+      },
+      "LogFileStorageCount": {
+        "enabled": false
+      },
+      "HarvestTraceOnDiskOnly": {
+        "enabled": false
+      },
+      "SBEnableAlwaysOn": {
+        "enabled": false
+      },
+      "UseAlternateGlassColorMatrix": {
+        "enabled": false
+      },
+      "EmulateFallbackTreatment": {
+        "enabled": false
+      },
+      "ForceCARendering": {
+        "enabled": false
+      },
+      "PrototypeSettingsEnabled": {
+        "enabled": false
+      },
+      "ActivePrototypingEnabled": {
+        "enabled": false
+      },
+      "ClearPrototypeCachesForMigration": {
+        "enabled": false
+      },
+      "DisableLiveActivities": {
+        "enabled": false
+      },
+      "disableAnimations": {
+        "enabled": false
+      },
+      "DisableSnapshots": {
+        "enabled": false
+      },
+      "DisableTimelines": {
+        "enabled": false
+      },
+      "DisablePlaceholders": {
+        "enabled": false
+      },
+      "LayerSnapshotter_USE_CAML": {
+        "enabled": false
+      },
+      "DelayRendererStartup": {
+        "enabled": false
+      },
+      "SwiftUIGlassGroupEnabled": {
+        "enabled": false
+      },
+      "UIKitAnimationDurationScale": {
+        "enabled": false
+      },
+      "GlassFeatureSwiftUI": {
+        "enabled": false
+      },
+      "GlassFeatureSpringBoard": {
+        "enabled": false
+      },
+      "GlassFeatureIcons": {
+        "enabled": false
+      },
+      "GlassFeatureDocumentCamera": {
+        "enabled": false
+      },
+      "GlassFeaturePhotos": {
+        "enabled": false
+      },
+      "GlassFeatureMediaServices": {
+        "enabled": false
+      },
+      "GlassFeatureSharing": {
+        "enabled": false
+      },
+      "GlassFeatureMail": {
+        "enabled": false
+      },
+      "UIViewGlassLegibilitySetting": {
+        "enabled": false
+      },
+      "CollectionTableAnimationsUseSpringCurve": {
+        "enabled": false
+      },
+      "DirectionalScrollAnimationDuration": {
+        "enabled": false
+      },
+      "DisableAppLaunchTelemetry": {
+        "enabled": false
+      },
+      "DisableSpotlightRankingCollection": {
+        "enabled": false
+      },
+      "DisableSpotlightServerFeedback": {
+        "enabled": false
+      },
+      "DisableCloudTelemetryService": {
+        "enabled": false
+      },
+      "DisableSiriSelfMetrics": {
+        "enabled": false
+      },
+      "DisableContactsQueryMetrics": {
+        "enabled": false
+      },
+      "DisableCallActivityMetrics": {
+        "enabled": false
+      },
+      "IgnoreCommercePingMetrics": {
+        "enabled": false
+      },
+      "DisableRemoteItemIndexing": {
+        "enabled": false
+      },
+      "DisableStoreKitUILogging": {
+        "enabled": false
+      },
+      "DisableMusicArtworkMotion": {
+        "enabled": false
+      },
+      "DiscreteScrollAnimationEnabled": {
+        "enabled": false
+      },
+      "DiscreteScrollAnimationDuration": {
+        "enabled": false
+      },
+      "AllowScreenShot": {
+        "enabled": false
+      },
+      "CanExceedEUVolumeLimit": {
+        "enabled": false
+      },
+      "HeadphoneVolumeLimit": {
+        "enabled": false
+      },
+      "ReindexAttemptsWithoutProgress": {
+        "enabled": false
+      },
+      "AccountDarkWakeEnabled": {
+        "enabled": false
+      },
+      "AVTUIGlobalPreferencesFlushStickersCache": {
+        "enabled": false
+      },
+      "AVTAvatarUIFlushThumbnailCache": {
+        "enabled": false
+      },
+      "BlockAllAppSiriSuggestions": {
+        "enabled": false
+      },
+      "ShowSystemServicesLocationIcon": {
+        "enabled": false
+      },
+      "SpotlightLaunchWatchdogTimeout": {
+        "enabled": false
+      },
+      "AppAndAccessoryAnalyticsAllowedRemoval": {
+        "enabled": false
+      },
+      "LogAllIOErrors": {
+        "enabled": false
+      },
+      "DeferDiagnosticExtensionTracker": {
+        "enabled": false
+      },
+      "SPUISearchFirstTimeShowCount": {
+        "enabled": false
+      },
+      "PersonalizedAdsDefaulted": {
+        "enabled": false
+      },
+      "UseAppstoredUpdates2": {
+        "enabled": false
+      },
+      "DisableMailSearchReceiver": {
+        "enabled": false
+      },
+      "DeferMailSearchTaskBaseDate": {
+        "enabled": false
+      },
+      "GlassContainerContentShapeResearch": {
+        "enabled": false
+      },
+      "GlassEffectContentShapeResearch": {
+        "enabled": false
+      },
+      "coreanimation_prelayout": {
+        "enabled": false
+      },
+      "uikit_prelayout": {
+        "enabled": false
+      },
+      "fluid_zoom_transitions": {
+        "enabled": false
+      },
+      "uip_fluid_transitions": {
+        "enabled": false
+      },
+      "layer_naming": {
+        "enabled": false
+      },
+      "ucb_redesign": {
+        "enabled": false
+      },
+      "content_backswipe": {
+        "enabled": false
+      },
+      "DisableSwiftUIScrollPrefetch": {
+        "enabled": false
+      },
+      "enhanced_main_menu": {
+        "enabled": false
+      },
+      "async_text_input_iphone": {
+        "enabled": false
+      },
+      "bidi_copy_paste": {
+        "enabled": false
+      },
+      "bidi_undo": {
+        "enabled": false
+      },
+      "combined_productivity_tap_gestures": {
+        "enabled": false
+      },
+      "content_text_extraction": {
+        "enabled": false
+      },
+      "dci_multiselect": {
+        "enabled": false
+      },
+      "emoji_enhancements": {
+        "enabled": false
+      },
+      "gestures_framework": {
+        "enabled": false
+      },
+      "inline_dictation_glow_effect": {
+        "enabled": false
+      },
+      "inline_text_completion_education_ui_enabled": {
+        "enabled": false
+      },
+      "inline_text_completion_spacebar_accepts": {
+        "enabled": false
+      },
+      "keyboard_autocorrection_push_clear_request": {
+        "enabled": false
+      },
+      "keyboard_ch_audio_only": {
+        "enabled": false
+      },
+      "keyboard_dock_use_oval_hit_area": {
+        "enabled": false
+      },
+      "keyboard_input_numberpad_popover": {
+        "enabled": false
+      },
+      "keyboard_language_indicator": {
+        "enabled": false
+      },
+      "keyboard_multilingual_education_ui": {
+        "enabled": false
+      },
+      "keyboard_oop_using_end_input_session_completion": {
+        "enabled": false
+      },
+      "keyboard_solarium_feedback": {
+        "enabled": false
+      },
+      "keyboard_suggestions_only_mode": {
+        "enabled": false
+      },
+      "keyboard_visceral": {
+        "enabled": false
+      },
+      "productivity_system_gestures": {
+        "enabled": false
+      },
+      "redesigned_candidate_ui": {
+        "enabled": false
+      },
+      "redesigned_text_cursor": {
+        "enabled": false
+      },
+      "suppress_inauthentic_touches": {
+        "enabled": false
+      },
+      "text_formatting_for_text_view": {
+        "enabled": false
+      },
+      "textfield_textlayoutmanager": {
+        "enabled": false
+      },
+      "textview_textlayoutmanager": {
+        "enabled": false
+      },
+      "textview_textlayoutmanager_include_older_apps": {
+        "enabled": false
+      },
+      "visual_bidi_selections": {
+        "enabled": false
+      },
+      "dictation_adaptive_delete_ios": {
+        "enabled": false
+      },
+      "dictation_continuous": {
+        "enabled": false
+      },
+      "dictation_voice_commands_adjacent_edits": {
+        "enabled": false
+      },
+      "dictation_voice_commands_ui_redesign": {
+        "enabled": false
+      },
+      "InlineCompletionsFullAcceptanceBySpace": {
+        "enabled": false
+      },
+      "multiscript_keyboard": {
+        "enabled": false
+      },
+      "multiscript_keyboard_expansion1": {
+        "enabled": false
+      },
+      "arabic_transliteration": {
+        "enabled": false
+      },
+      "HiddenWindowsPill": {
+        "enabled": false
+      },
+      "FullScreenLetterboxing": {
+        "enabled": false
+      },
+      "OnenessHomeScreenEditing": {
+        "enabled": false
+      },
+      "SAEIncreasedInset": {
+        "enabled": false
+      },
+      "SAETappyHomeAffordance": {
+        "enabled": false
+      },
+      "ChamoisWindowDragInteraction": {
+        "enabled": false
+      },
+      "ChamoisWindowingUI": {
+        "enabled": false
+      },
+      "DisableCollectionViewPrefetching": {
+        "enabled": false
+      },
+      "TableViewCellPrefetchingModeResearch": {
+        "enabled": false
+      },
+      "SpotlightMetricsWritingResearch": {
+        "enabled": false
+      },
+      "ICloudBackgroundTaskSchedulingResearch": {
+        "enabled": false
+      },
+      "DASFairSchedulingQueueResearch": {
+        "enabled": false
+      },
+      "AVConferenceThermalLightMitigationsResearch": {
+        "enabled": false
+      },
+      "IPCSMemoryTransactionResearch": {
+        "enabled": false
+      },
+      "IPCSMemoryReductionResearch": {
+        "enabled": false
+      },
+      "SwiftUIPersistentLazyStackCache": {
+        "enabled": false
+      },
+      "SwiftUIHitTestingCache": {
+        "enabled": false
+      },
+      "SwiftUIDisableAsyncRendering": {
+        "enabled": false
+      },
+      "SwiftUIGestureContainers": {
+        "enabled": false
+      },
+      "SwiftUIUniversalGestureRelationships": {
+        "enabled": false
+      },
+      "SwiftUIDisableRemoteEffects": {
+        "enabled": false
+      },
+      "SwiftUINewScrollEdgeEffectTag": {
+        "enabled": false
+      },
+      "SwiftUIStackLayoutOptimizationsResearch": {
+        "enabled": false
+      },
+      "SwiftUIEnableUnifiedLayoutResearch": {
+        "enabled": false
+      },
+      "UIKitC2LowRefreshRateEnabled": {
+        "enabled": false
+      },
+      "DuoLimitedResizingApp": {
+        "enabled": false
+      },
+      "KeyboardImageCaching": {
+        "enabled": false
+      },
+      "UIKeyboardGrayscaleCachingEnabled": {
+        "enabled": false
+      },
+      "UIKeyboardCachingLockOnRead": {
+        "enabled": false
+      },
+      "IdleSchedulerMinimumFramesBetweenNotify": {
+        "enabled": false
+      },
+      "BGAppKillDemo": {
+        "enabled": false
+      },
+      "DASDisableFairSchedulingQueue": {
+        "enabled": false
+      },
+      "SpotlightMetricsWriting": {
+        "enabled": false
+      },
+      "ICloudBackgroundTaskScheduling": {
+        "enabled": false
+      },
+      "DuetActivitySchedulerDefaults": {
+        "enabled": false
+      },
+      "DASActivityDurationTracking": {
+        "enabled": false
+      },
+      "PowerLogPreferences": {
+        "enabled": false
+      },
+      "PhotoAnalysisdPreferences": {
+        "enabled": false
+      },
+      "ActivityAwardsPreferences": {
+        "enabled": false
+      },
+      "AdPlatformsTelemetry": {
+        "enabled": false
+      },
+      "APSDPushScheduling": {
+        "enabled": false
+      },
+      "OSAnalyticsPreferences": {
+        "enabled": false
+      },
+      "CoreDuetPreferences": {
+        "enabled": false
+      },
+      "SystemReduceMotion": {
+        "enabled": false
+      },
+      "SystemReduceTransparency": {
+        "enabled": false
+      },
+      "SystemAutoplayAnimatedImages": {
+        "enabled": false
+      },
+      "SystemAutoplayMessageEffects": {
+        "enabled": false
+      },
+      "SystemAttentionAware": {
+        "enabled": false
+      },
+      "HomeScreenReduceMotion": {
+        "enabled": false
+      },
+      "SystemLiveSpeech": {
+        "enabled": false
+      },
+      "SystemRCSBusinessMessages": {
+        "enabled": false
+      },
+      "SystemSiriSharingSuggestions": {
+        "enabled": false
+      },
+      "SafariEarlyHints": {
+        "enabled": false
+      },
+      "SafariLinkPrefetch": {
+        "enabled": false
+      },
+      "SafariSpeculationPrefetch": {
+        "enabled": false
+      },
+      "SafariBackgroundFetch": {
+        "enabled": false
+      },
+      "SafariNetworkLoader": {
+        "enabled": false
+      },
+      "SafariDeferScripts": {
+        "enabled": false
+      },
+      "SafariGPUCanvas": {
+        "enabled": false
+      },
+      "SafariGPUDOM": {
+        "enabled": false
+      },
+      "SafariOffscreenCanvas": {
+        "enabled": false
+      },
+      "SafariOffscreenWorkers": {
+        "enabled": false
+      },
+      "SafariWebGPUHDR": {
+        "enabled": false
+      },
+      "SafariWebGLWorkers": {
+        "enabled": false
+      },
+      "SafariGraphicsFilters": {
+        "enabled": false
+      },
+      "SafariNear60FPS": {
+        "enabled": false
+      },
+      "SafariNextLayout": {
+        "enabled": false
+      },
+      "SafariLazyImages": {
+        "enabled": false
+      },
+      "SafariHDRDisplay": {
+        "enabled": false
+      },
+      "SafariCrossSiteProcesses": {
+        "enabled": false
+      },
+      "SafariSharedWorker": {
+        "enabled": false
+      },
+      "SafariMediaWorker": {
+        "enabled": false
+      },
+      "SafariCompression": {
+        "enabled": false
+      },
+      "SafariThirdPartyCookieFlag": {
+        "enabled": false
+      },
+      "SafariJavaScript": {
+        "enabled": false
+      },
+      "SafariAdMeasurement": {
+        "enabled": false
+      },
+      "SafariPreloadTopHit": {
+        "enabled": false
+      },
+      "SafariEnhancedPrivacy": {
+        "enabled": false
+      },
+      "SystemMessageSummarization": {
+        "enabled": false
+      },
+      "LockScreenPredictionDonationsResearch": {
+        "enabled": false
+      },
+      "WiFiKnownNetworksResearch": {
+        "enabled": false
+      },
+      "SystemLockScreenMessaging": {
+        "enabled": false
+      },
+      "HandoffAdvertisingCandidate": {
+        "enabled": false
+      },
+      "SplitHWRKeyboardEnabled": {
+        "enabled": false
+      }
+    },
+    "GNUGGET_VERSION": "10.0"
+  }
+Note: Preset version 2 contains all needed.

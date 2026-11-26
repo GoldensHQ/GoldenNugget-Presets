@@ -51,7 +51,12 @@ jobs:
           python -m pip install -r gn/requirements.txt
 
       - name: Build index.json
-        run: python gn/tools/preset_catalog.py build catalog _site/index.json
+        run: |
+          BUILD_TOOL="catalog/tools/preset_catalog.py"
+          if [ ! -f "$BUILD_TOOL" ]; then
+            BUILD_TOOL="gn/tools/preset_catalog.py"
+          fi
+          python "$BUILD_TOOL" build catalog _site/index.json
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
